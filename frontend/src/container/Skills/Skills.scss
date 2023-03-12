@@ -81,3 +81,24 @@
     }
   }
 }
+
+.app__skills-exp {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 2rem;
+  }
+}
+
+.app__skills-exp-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
