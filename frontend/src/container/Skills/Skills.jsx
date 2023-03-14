@@ -58,7 +58,7 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
                       data-tip
-                      data-for={work.name}
+                      data-tooltip-id={work.name}
                       key={work.name}
                     >
                       <h4 className="bold-text">{work.name}</h4>
